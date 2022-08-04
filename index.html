@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdns.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="style"
+
+    <title>projeto Youtube </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body{
+            background: #222;
+        }
+
+        .center{
+            width: 100%;
+            max-width: 1480px;
+            padding: 0 2%;
+            margin: 0 auto;
+            display: flex;
+        }
+
+        header{
+            margin: 20px;
+        }
+
+        .alignflex{
+            justify-content: space-between;
+        }
+
+        .logo h2{
+            color: white;
+        }
+
+        .menu-btn{
+            display: inline-block;
+        }
+
+        .menu-items a{
+            display: inline-block;
+            color:white;
+            margin: 0 14px;
+            text-decoration: none;
+
+        }
+
+        .menu-items a.active{
+            color: #f9004d;
+        }
+
+        .menu-btn button{
+            border: 1px solid white;
+            padding: 10px 14px;
+            color: white;
+            background-color: transparent;
+            border-radius: 8px;
+            margin: 0 15px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+
+        .menu-btn button:hover{
+            background-color: #f9004d;
+        }
+
+        .main-1 h1{
+            font-size: 90px;
+            background-image: linear-gradient(145deg,#f81f01,#ee076e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+        }
+
+        .diferencial-single{
+            margin: 0 30px;
+        }
+
+        .diferencial-single svg{
+            color:#f9004d;
+            font-size: 30px;           
+
+        }
+
+        .diferencial-single h3{
+            color: white;
+            font-size: 19px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .diferencial-single p{
+            color: white;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="center alignflex">
+        <div class="logo"><h2>CARLOS AGENCY</h2></div>
+        <div class="menu-items">
+            <a class="active" href="">Home</a>
+            <a href="">planejamento</a>
+            <a href="">produtos</a>
+            <a href="">shop</a>
+            <a href="">sobre</a>
+            <a href="">blog</a>
+            <a href="">contato</a> 
+            <div class="menu-btn">
+                <button>lets talk</button>  
+        </div>
+        
+        </div>
+        </div>
+    </header>
+
+    <section class="main-1">
+        <div class="center">
+            <h1>
+                 A DIGITAL<br/>
+                 AGENCY
+            </h1>
+        </div>
+    </section>
+    <br/>
+    <br/>
+    <section class="diferenciais">
+        <div class="center alignflex">
+            <div class="diferencial-single">
+                <i class="fa-solid fa-cube"></i>
+                <h3>Estrategia de Negocio</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+        </div>
+        <div class="diferencial-single">
+            <i class="fa-solid fa-cube"></i>
+            <h3>Estrategia de Negocio</h3>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+        </div>
+        <div class="diferencial-single">
+            <i class="fa-solid fa-cube"></i>
+            <h3>Estrategia de Negocio</h3>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+        </div>
+        
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/js/all.min.js"></script>
+
+</body>
+</html>
